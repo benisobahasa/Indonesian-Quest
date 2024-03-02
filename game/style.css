@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('assets/gbr1.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+#introduction-container {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 700px;
+    padding: 40px 10px; /* Increased padding for more space */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+}
+
+h1, p {
+    color: #333; /* Text color against a light background */
+}
+
+.quest-button {
+    padding: 20px 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+.quest-button:hover {
+    background-color: #0056b3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quest-button + .quest-button {
+    margin-left: 20px;
+}

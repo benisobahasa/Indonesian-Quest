@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfd386;
+    background-image: url('assets/gbr1.jpg'); /* Ganti dengan URL gambar yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#sentence-display {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#answer-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#check-button, #next-button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#check-button:hover, #next-button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
